@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.AdminIndex{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.AI-Top{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px 0 50px;
+	align-items: center;
+	background-color: #a1a1a1;
+}
+
+.AI-Top a{
+	text-decoration: none;
+	color: black;
+}
+
+.AI-Top a:hover{
+	color: white;
+	transition: 0.3s ease;
+}
+
+.AI-Bottom{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.AI-Left{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 200px;
+	background-color: black;
+	padding: 30px 0 0 0;
+	gap: 30px;
+}
+
+.AI-Left div{
+	width: 100%;
+}
+
+.AI-Left a{
+	text-decoration: none;
+	color: white;
+	width: 95%;
+	display: inline-block;
+	padding: 5px;
+}
+
+.AI-Left a:hover{
+	background-color: #999999;
+	color: black;
+	transition: 0.3s ease;
+}
+
+.AI-Right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}

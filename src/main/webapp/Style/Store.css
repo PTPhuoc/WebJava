@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.Store-SideBar{
+	position: fixed;
+	width: 100%;
+}
+
+.Store{
+	padding-top: 80px;
+	background-color: #777777;
+}
+
+.Store-List{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 30px 5px 30px;
+	align-items: center;
+	background-color: #ff9090;
+}
+
+.SL-Type{
+	display: flex;
+	gap: 10px;
+}
+
+.SL-Search input{
+	width: 250px;
+	outline: none;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 10px 0 0 10px ;
+	font-family: 'Dosis', sans-serif;
+}
+
+.SL-Search button{
+	padding: 5px;
+	background-color: white;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+	border-radius: 0 10px  10px  0;
+	border-left: none;
+	cursor: pointer;
+}
+
+.SL-Type a{
+	text-decoration: none;
+	color: black;
+	background-color: #ff9090;
+	padding: 5px 15px 5px 15px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.SL-Type a:hover{
+	background-color: #650000;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.SPL-Detail a{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.SPL-Detail p, .SPL-Detail i{
+	text-decoration: none;
+	color: black;
+}
+
+.SPLD-Title p{
+	margin: 0;
+}
+
+.SPLD-Title{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	width: 100%;
+}
+
+.SPL-Detail img{
+	width: 100%;
+}
+
+.Store-Product-List{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.SPL-Detail button{
+	background-color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.SPL-Detail button:hover{
+	background-color: black;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.SPL-Detail{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #aaaaaa;
+	padding: 10px;
+	gap: 5px;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.SideBar{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10% 0 5%;
+	background-color: #b80000;
+	color: white;
+	height: 80px;
+}
+
+.SB-Link{
+	text-decoration: none;
+}
+
+.SB-First{
+	font-size: 30px;
+	color: white;
+}
+
+.SB-Last{
+	font-size: 20px;
+	font-style: italic;
+	color: #707070;
+}
+
+.SB-Action{
+	display: flex;
+	gap: 10%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.SB-Title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.SB-Action a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
+
+.SBA-Account, .SBA-LogOut{
+	width: 100px;
+}
+
+.SBA-Account a, .SBA-LogOut a{
+	width: 100px;
+}
+
+.SB-Action a:hover{
+	transform: translateY(-10px);
+	transition: 0.3s ease;
+}

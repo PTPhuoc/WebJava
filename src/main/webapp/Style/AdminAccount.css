@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+.AA-Right{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.AA-Title{
+	background-color: white;
+	padding-left: 20px;
+}
+
+.AA-Line{
+	height: 5px;
+	width: 100%;
+	background-color: #444444;
+}
+
+.AA-Table table{
+	width: 100%;
+}
+
+.AA-Table table tr:first-child{
+	background-color: #a1a1a1;
+}
+
+.AA-Table table tr:not(:first-child) td{
+	border-bottom: 2px solid black;
+}
+
+.AA-Edit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.AA-Edit a{
+	color: black;
+}
+
+.AA-Edit a:hover{
+	color: #aaaaaa;
+}
+
+#Disable{
+	opacity: 0.5;
+}
+
+.DisableEdit{
+	z-index: -1;
+}
+
+.EnableEdit{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.AAE-BR, .AAE-D-BR{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #aaaaaa;
+	padding: 20px;
+	border-radius: 10px;
+	gap: 20px;
+}
+
+.AAE-C-Form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.AAE-C-Action, .AAE-Bottom, .AAE-D-Button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.AAE-C-Form h2{
+	margin:0;
+}
+
+.AAE-C-Action div:first-child{
+	width: 100px;
+}
+
+.AAE-C-Form input{
+	outline: none;
+	padding: 10px;
+	width: 250px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.AAE-Bottom button, .AAE-D-Button button{
+	border: none;
+	padding: 10px;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: 'Dosis', sans-serif;
+	cursor: pointer;
+}
+
+.AAE-Bottom button:hover, .AAE-D-Button button:hover{
+	background-color: #444444;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.AAE-Title, .AAE-D-Content{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.Error{
+	border: 2px solid red;
+}
+
+.EnableConfirm{
+	position: fixed;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.DisableConfirm, .null{
+	position: fixed;
+	z-index: -1;
+	opacity: 0;
+}
+
+.AAE-D-BR{
+	text-align: center;
+}
+
+.AAE-D-Infor i {
+	font-size: 45px;
+}

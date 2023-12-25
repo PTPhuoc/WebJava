@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.Account-Infor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15% 0 15%;
+	background-color: #cccccc;
+	padding-top: 90px;
+}
+
+.Account-SideBar{
+	position: fixed;
+	width: 100%;
+}
+
+.Account-Text div{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	padding: 10px;
+}
+
+.Account-Image img{
+	width: 200px;
+	border-radius: 100%;
+}
+
+.Account-Text p, .Account-Text h4 {
+	margin: 0;
+}
+
+.Account-Text div div:first-child{
+	width: 100px;
+}
+
+.Account-Cart{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.AC-Title, .AH-Title{
+	background-color: #aaaaaa;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.AC-Title div{
+	padding: 0 50px 0 30px;
+}
+
+.AC-Table table, .AH-Table table{
+	width: 100%;
+	text-align: center;
+}
+
+.AC-Table table a, .AH-Table table a{
+	color: black;
+}
+
+.AC-Table table tr th, .AH-Table table tr th{
+	background-color: #cccccc;
+}
+
+.AC-Table table tr td, .AH-Table table tr td{
+	border-bottom: 2px solid black;
+}
+
+.AC-T-SumMoney td{
+	background-color: #cccccc;
+}
+
+.AC-T-SumMoney td h4{
+	margin: 0;
+}
+
+.NoError{
+	position: fixed;
+	top: 100px;
+	right: 0;
+	background-color: white;
+	display: flex;
+	border-radius: 10px;
+	justify-content: center;
+	align-items:center;
+	padding: 0 20px 0 0;
+	transform: translateX(100%);
+	transition: 0.3s ease;
+}
+
+.Error{
+	position: fixed;
+	top: 100px;
+	right: 0;
+	background-color: white;
+	display: flex;
+	border-radius: 10px;
+	justify-content: center;
+	align-items:center;
+	padding: 0 20px 0 0;
+	transform: translateX(0);
+	transition: 0.3s ease;
+}
+
+.A-Cancle a{
+	padding: 10px;
+}
+
+.AC-Title a{
+	color: black;
+	text-decoration: none;
+}
